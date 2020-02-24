@@ -5,3 +5,6 @@
 <http://example.com/schema/RockClimbing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://example.com/schema/RockClimbing> <http://www.w3.org/2000/01/rdf-schema#comment> "A sport where the goal is to climb." .
 <http://example.com/schema/RockClimbing> <http://www.w3.org/2000/01/rdf-schema#label> "Rock Climbing" .
+<http://example.com/schema/Sailing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.com/schema/Sailing> <http://www.w3.org/2000/01/rdf-schema#comment> "Sailing..." .
+<http://example.com/schema/Sailing> <http://www.w3.org/2000/01/rdf-schema#label> "Sailing" .
