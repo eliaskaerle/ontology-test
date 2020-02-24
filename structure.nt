@@ -1,0 +1,30 @@
+_:b1 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b2 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.com/games/> <http://schema.org/hasPart> <http://example.com/games/board-games/> .
+<http://example.com/games/> <http://schema.org/hasPart> <http://example.com/games/card-games/> .
+<http://example.com/games/> <http://schema.org/hasPart> <http://example.com/games/dice-games/> .
+<http://example.com/games/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/games/> <http://www.w3.org/2000/01/rdf-schema#comment> "A lot of fun, sometimes" .
+<http://example.com/games/> <http://www.w3.org/2000/01/rdf-schema#label> "Games" .
+<http://example.com/games/board-games/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/games/board-games/> <http://www.w3.org/2000/01/rdf-schema#comment> "Games played on a board" .
+<http://example.com/games/board-games/> <http://www.w3.org/2000/01/rdf-schema#label> "Board Games" .
+<http://example.com/games/card-games/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/games/card-games/> <http://www.w3.org/2000/01/rdf-schema#comment> "Games played with cards" .
+<http://example.com/games/card-games/> <http://www.w3.org/2000/01/rdf-schema#label> "Card Games" .
+<http://example.com/games/dice-games/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/games/dice-games/> <http://www.w3.org/2000/01/rdf-schema#comment> "Games played with dice" .
+<http://example.com/games/dice-games/> <http://www.w3.org/2000/01/rdf-schema#label> "Dice Games" .
+<http://example.com/sports/> <http://schema.org/hasPart> <http://example.com/sports/individual-sports/> .
+<http://example.com/sports/> <http://schema.org/hasPart> <http://example.com/sports/team-sports/> .
+<http://example.com/sports/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/sports/> <http://www.w3.org/2000/01/rdf-schema#comment> "A bunch of sports" .
+<http://example.com/sports/> <http://www.w3.org/2000/01/rdf-schema#label> "Sports" .
+<http://example.com/sports/individual-sports/> <http://schema.org/hasPart> <http://example.com/schema/RockClimbing> .
+<http://example.com/sports/individual-sports/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/sports/individual-sports/> <http://www.w3.org/2000/01/rdf-schema#comment> "Sports played individually" .
+<http://example.com/sports/individual-sports/> <http://www.w3.org/2000/01/rdf-schema#label> "Individual Sports" .
+<http://example.com/sports/team-sports/> <http://schema.org/hasPart> <http://example.com/schema/Curling> .
+<http://example.com/sports/team-sports/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/sports/team-sports/> <http://www.w3.org/2000/01/rdf-schema#comment> "Sports played as a team" .
+<http://example.com/sports/team-sports/> <http://www.w3.org/2000/01/rdf-schema#label> "Team Sports" .
